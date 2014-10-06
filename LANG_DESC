@@ -1,0 +1,24 @@
+=rough ideas=
+Document in a .yus formatt composes of sections:
+	=Data=
+	=Conf=
+	=Text=
+
+==Data section==
+contains definition of parameters, their type, and imports (parametric hierarchy)
+
+==Configuration section==
+Defines styles, sets default styles, imports styles
+
+==Text section==
+Typical line corresponds to one text field in the resulting jrxml. Parameters are in <>, are of the form
+	name="val"
+Contents of the text field start right after the > (or at the start of the line, if there is no <)
+Special lines denote imports from external files, those consist only of <>, and could result to more fields in the target.
+Possible parameters:
+	directly-translating to target:
+		x, y, linewidth, lineheight, key
+		style
+	auxiliary:
+		xPre, xPost, yPre, yPost
+	
