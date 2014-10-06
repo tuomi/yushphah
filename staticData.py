@@ -25,7 +25,8 @@ jrxmlSnips = {
 			<groupFooter>
 			<band height="{height}"  isSplitAllowed="true" >\n''',
 	"groupOutro" : '''			</band>
-			</groupFooter>\n''',
+			</groupFooter>
+		</group>\n''',
 	"reportIntro" : '''<?xml version="1.0" encoding="UTF-8"  ?>
 <!-- Created with iReport - A designer for JasperReports -->
 <!DOCTYPE jasperReport PUBLIC "//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">

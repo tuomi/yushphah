@@ -10,7 +10,6 @@ def confHandler(serf):
 	
 
 def controlStatementSubhandler(statementLine, textController):
-	print 'statement subh: ' + statementLine
 	controlStatements = [
 		(
 			re.compile('group (.*)'),
@@ -132,7 +131,6 @@ class TextController():
 	def put(t, s):
 		t.ioHandler.put(s)
 	def flushTextElements(t):
-		print 'flush'
 		t.bufferHeight = 0
 		t.prototype["y"] = 0	# TODO not a good idea, somehow read something more default (thc?)
 		t.put(t.groupBuffer)
