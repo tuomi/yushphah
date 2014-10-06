@@ -1,0 +1,10 @@
+=Text=
+<group testGr
+test group header
+<lineheight="26" yPost="26">high line
+line after high line
+<groupFt
+test group footer
+<group anotherGr
+another group header
+<groupFt
